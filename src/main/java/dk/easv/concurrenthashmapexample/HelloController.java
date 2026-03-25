@@ -62,7 +62,6 @@ public class HelloController {
 
     @FXML
     public void initialize() {
-        // Wire TableView columns to the WordEntry record fields
         key_column.setCellValueFactory(
             data -> new SimpleStringProperty(data.getValue().word()));
         value_column.setCellValueFactory(
